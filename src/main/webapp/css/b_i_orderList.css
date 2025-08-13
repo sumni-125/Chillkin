@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: #fffbea;
+    font-family: sans-serif;
+}
+
+.top-bar {
+    background-color: #b72626;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+}
+
+.top-bar .left a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.top-bar .center {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-bar span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.top-bar .right {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.container h2 {
+    text-align: center;
+    color: #b72626;
+    margin-bottom: 30px;
+}
+
+.table-box {
+    background-color: #fff9f0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #b72626;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+td {
+    padding: 15px 10px;
+    font-size: 15px;
+    background-color: #fff9f0;
+    border-bottom: 1px solid #f0e6dc;
+    vertical-align: middle;
+}
+
+.back-btn {
+    background-color: #b72626;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #a41d1d;
+}
+
+.fixed-ingredient-guide {
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    background-color: #fff2e0;
+    border: 2px solid #ffd28a;
+    padding: 20px;
+    border-radius: 16px;
+    width: 240px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 14px;
+    z-index: 999;
+    text-align: center; 
+}
+
+.fixed-ingredient-guide h3 {
+    margin-top: 0;
+    color: #b72626;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.fixed-ingredient-guide ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-ingredient-guide li {
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    gap: 10px;                
+    margin-bottom: 10px;
+}
+
+.ing-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+
+

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: #afccc4;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+        }
+        .sidebar {
+            width: 420px;
+            background: #dbede3;
+            padding-left: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .logo-row {
+            display: flex;
+            align-items: center;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .logo-row img {
+            height: 63px;
+            margin-right: 15px;
+        }
+        .logo-title {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .sidebar-menu {
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+            gap: 34px;
+        }
+        .main {
+            flex: 1;
+            padding: 40px 80px 40px 30px;
+            position: relative;
+        }
+        .top-right-corner {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            position: relative;
+        }
+        .chicken-img {
+            height: 200px;
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            transform: scaleX(-1);  
+        }
+        .title {
+            margin-top: 60px;
+            margin-bottom: 14px;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+		.notice-container {
+		    display: grid;
+		    grid-template-columns: repeat(3, 1fr);
+		    gap: 20px;
+		    margin: 20px auto;
+		    max-width: 1200px;
+}
+ 
+        .notice-box {
+		    grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개 */
+		    gap: 16px; /* 박스 간격 설정, 원하면 값 조정 */
+		    margin: 20px auto;
+		    max-width: 1200px;
+            background: #f4f5ef;
+            border: 2px solid #acb792;
+            border-radius: 10px;
+            padding: 24px 28px 14px 26px;
+            font-size: 15px;
+            color: #292926;
+            box-shadow: 2px 2px 7px rgba(80,90,80, 0.07);
+        }
+        .notice-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .notice-table th, .notice-table td {
+            text-align: left;
+            padding: 4px 0;
+        }
+        .notice-table th {
+            width: 110px;
+            font-size: 14.5px;
+        }
+        .notice-table td {
+            font-size: 14px;
+        }
+        .notice-bottom {
+            margin-top: 12px;
+            color: #656555;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+   
+        
+        @media (max-width: 900px) {
+		  .notice-container {
+		    grid-template-columns: repeat(2, 1fr);
+		  }
+		}
+		@media (max-width: 600px) {
+		  .notice-container {
+		    grid-template-columns: 1fr;
+		  }
+		}
+        
+        @media (max-width: 960px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100vw; height: 180px; }
+            .main { padding: 18px 8px 18px 8px;}
+        }
+
+        a{
+            color: #292926;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .sidebar-menu>a{
+            color: #292926;
+            text-decoration: underline;
+        }

@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-color: #fffbea;
+}
+
+.top-bar {
+    background-color: #b72626;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+}
+
+.top-bar .left a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.top-bar .center {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-bar span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.top-bar .right {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #b72626;
+}
+
+.review-form .input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.review-form input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    outline: none;
+}
+
+.review-form input[readonly] {
+    background-color: #f2f2f2;
+    color: #555;
+    font-weight: bold;
+}
+
+.review-form textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    resize: none;
+    overflow: auto; 
+    margin: 0;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.submit-btn {
+    background-color: #444;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #222;
+}
+
+.back-btn {
+    background-color: #b72626;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: #a41d1d;
+}

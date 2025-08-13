@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #fffbea;
+}
+
+.top-bar {
+    background-color: #b72626;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.top-bar img,
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-bar span {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.login-wrapper {
+    width: 450px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 60px 50px;
+    border-radius: 24px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-wrapper h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #111;
+}
+
+.login-wrapper label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 8px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-wrapper input[type="text"],
+.login-wrapper input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.login-wrapper .info {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.button-group {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-group input[type="submit"],
+.button-group .signup-button {
+    background-color: #ffe391;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    transition: background-color 0.2s ease;
+}
+
+.button-group input[type="submit"]:hover,
+.button-group .signup-button:hover {
+    background-color: #ffdb66;
+}
+
+.back-to-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-btn {
+    background-color: #b72626;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.back-btn:hover {
+    background-color: #a41d1d;
+}
+

@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-color: #fffbea;
+    font-family: sans-serif;
+}
+
+.top-bar {
+    background-color: #b72626;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+}
+
+.top-bar .left a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.top-bar .center {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-bar span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.top-bar .right {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.container h2 {
+    text-align: center;
+    color: #b72626;
+    margin-bottom: 30px;
+}
+
+.table-box {
+    background-color: #fff9f0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #b72626;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+td {
+    padding: 15px 10px;
+    font-size: 15px;
+    background-color: #fff9f0;
+    border-bottom: 1px solid #f0e6dc;
+    vertical-align: middle;
+}
+
+/* ✅ 이미지 고정 크기 및 정렬 */
+.img-box {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* 버튼 영역 */
+.btn-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.order-btn {
+    background-color: #ffe391;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #ffdb66;
+}
+
+.back-btn {
+    background-color: #b72626;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: #a41d1d;
+}
